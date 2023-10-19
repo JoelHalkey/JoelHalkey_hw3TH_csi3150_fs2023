@@ -1,11 +1,115 @@
 /* MAIN CSS */
-
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
 
 /* HERO SECTION CSS */
+.hero-section {
+    background-image: url("/media/images/alaska\(7\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 750px;
+    background-position: center center;
+    color: white;
+    font-size: 24;
+    position: relative;
+    filter: brightness(80%);
+}
+
+.hero-section-text {
+    color: white;
+    /* Text color */
+    font-size: 24px;
+    /* Font size */
+    text-align: center;
+    /* Center the text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 /* INTRODUCTION INFO CSS */
+.introduction-information {
+    background-image: url("/media/images/alaska\(4\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 750px;
+    filter: brightness(75%);
+}
+
 /* SAMPLE EXPERIENCES CSS */
+.sample-experiences {
+    background-image: url("/media/images/alaska\(2\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 750px;
+    filter: brightness(75%);
+}
+
+.sample-experiences-title-text{
+    color: white;
+    /* Text color */
+    font-size: 24px;
+    /* Font size */
+    text-align: center;
+    /* Center the text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* WHAT TO KNOW CSS */
+.what-to-know {
+    background-image: url("/media/images/alaska\(5\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 750px;
+    filter: brightness(75%);
+}
+
 /* STATISTICS CSS */
+.statistics {
+    background-image: url("/media/images/alaska\(6\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 750px;
+    filter: brightness(75%);
+}
+
 /* TESTIMONIAL CSS */
+.testimonial {
+    background-image: url("/media/images/alaska\(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 750px;
+    filter: brightness(75%);
+}
+
 /* SLIDESHOW CSS */
+.slideshow {
+    background-image: url("/media/images/alaska\(8\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 750px;
+    filter: brightness(75%);
+}
+
 /* CONTACT CSS */
+.contact {
+    background-image: url("/media/images/alaska\(3\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 750px;
+    filter: brightness(75%);
+}
