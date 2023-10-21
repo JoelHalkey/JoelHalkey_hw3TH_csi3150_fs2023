@@ -1,6 +1,6 @@
-**Todo** 
+**Todo**
 
-1. Find drop down carrot icon (and side to side carrot icon, left and right) and figure out how to use it.<br>
+~~1. Find drop down carrot icon (and side to side carrot icon, left and right) and figure out how to use it.<br>~~
 
 2. Find the social media icons.
 

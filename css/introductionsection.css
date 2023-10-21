@@ -1,0 +1,29 @@
+/* INTRODUCTION INFO CSS */
+.introduction-information-main {
+  background-image: url("/media/images/alaska\(4\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 750px;
+  filter: brightness(75%);
+}
+
+/* Finish this later because it's really really annoying */
+.introduction-information-dropdown {
+  display: none;
+}
+
+#introduction_information_checkbox_toggle:checked
+  ~ .introduction-information-dropdown {
+  display: block;
+}
+
+#introduction_information_checkbox_toggle {
+  display: none;
+}
+
+.introduction-information-read-more-button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}

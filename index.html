@@ -1,131 +1,143 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alaska</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
 
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/herosection.css" />
+    <link rel="stylesheet" href="/css/introductionsection.css" />
+    <link rel="stylesheet" href="/css/experiencessection.css" />
+    <link rel="stylesheet" href="/css/whattoknowsection.css" />
+    <link rel="stylesheet" href="/css/statisticssection.css" />
+    <link rel="stylesheet" href="/css/testimonialsection.css" />
+    <link rel="stylesheet" href="/css/slideshowsection.css" />
+    <link rel="stylesheet" href="/css/contactsection.css" />
+
+    <!--Used for Font Awesome fonts!-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- Icons Used from Font Awesome
+        <i class="fa-solid fa-chevron-right"></i>
+        <i class="fa-solid fa-chevron-left"></i>
+        <i class="fa-solid fa-chevron-down"></i>
+    -->
+  </head>
+
+  <body>
     <!--HERO SECTION-->
     <header class="hero-section">
-        <div class="hero-section-text">
-            <h1 class="alaska-text">Alaska</h1>
-            <h3 class="alaska-subtext"> Tour and Travel</h3>
-        </div>
+      <div class="hero-section-text">
+        <h1 class="alaska-text">Alaska</h1>
+        <h2 class="alaska-subtext">Tour and Travel</h2>
+      </div>
+      <div id="hero-section-arrow-container">
+        <a href="#introduction-information">
+          <i id="hero-section-arrow" class="fa-5x fa-solid fa-chevron-down"></i>
+        </a>
+      </div>
     </header>
 
     <main>
-        <!--INTRODUCTION INFORMATION-->
-        <section class="introduction-information">
-            <div class="introduction-information-main">
-                <div class="introduction-information-main-title-text">
+      <!--INTRODUCTION INFORMATION-->
+      <section class="introduction-information" id="introduction-information">
+        <div class="introduction-information-main">
+          <div class="introduction-information-main-title-text">
+            <h1>
+              Is a trip to <br />
+              Alaska on <br />
+              your list?
+            </h1>
+          </div>
+          <div class="introduction-information-main-regular-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus
+            at urna condimentum mattis pellentesque id. Imperdiet massa
+            tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Duis
+            at consectetur lorem donec massa. Risus viverra adipiscing at in.
+            <br /><br />
+            Leo vel orci porta non pulvinar. Elit scelerisque mauris
+            pellentesque pulvinar. Scelerisque fermentum dui faucibus in ornare.
+            Massa massa ultricies mi quis hendrerit. Facilisi nullam vehicula
+            ornare quam viverra orci sagittis. Orci nulla pellentesque dignissim
+            enim sit amet venenatis. Dui id ornare arcu odio ut sem nulla
+            pharetra diam.
+          </div>
 
-                </div>
-                <div class="introduction-information-main-regular-text">
+          <div class="introduction-information-dropdown">
+            <!--Drop down text-->
+            <p></p>
+          </div>
 
-                </div>
-                <div class="read-more-button">
-    
-                </div>
-            </div>
-            <div class="introduction-information-dropdown">
-                <!--Drop down text-->
-                <p></p>
-            </div>
-        </section>
+          <input
+            type="checkbox"
+            id="introduction_information_checkbox_toggle"
+          />
+          <label
+            for="introduction_information_checkbox_toggle"
+            class="introduction-information-read-more-button"
+            >read more
+          </label>
+        </div>
+      </section>
 
-        <!--EXPERIENCES-->
-        <section class="sample-experiences">
-            
-            <div class="sample-experiences-title-text">
-                
-            </div>
+      <!--EXPERIENCES-->
+      <section class="sample-experiences">
+        <div class="sample-experiences-title-text"></div>
 
-            <div class="experiences-container">
-                <article class="experience-1">
-                    <div class="experience-text">
+        <div class="experiences-container">
+          <article class="experience-1">
+            <div class="experience-text"></div>
+            <img class="experiences-dropdown-icon" src="" alt="" />
+          </article>
 
-                    </div>
-                    <img class="experiences-dropdown-icon" src="" alt="">
-                </article>
+          <article class="experience-2">
+            <div class="experience-text"></div>
+            <img class="experiences-dropdown-icon" src="" alt="" />
+          </article>
 
-                <article class="experience-2">
-                    <div class="experience-text">
+          <article class="experience-3">
+            <div class="experience-text"></div>
+            <img class="experiences-dropdown-icon" src="" alt="" />
+          </article>
+        </div>
 
-                    </div>
-                    <img class="experiences-dropdown-icon" src="" alt="">
-                </article>
+        <div class="read-more-button"></div>
+      </section>
 
-                <article class="experience-3">
-                    <div class="experience-text">
+      <!--WHAT TO KNOW-->
+      <section class="what-to-know">
+        <div class="what-to-know-main-text"></div>
+        <div class="what-to-know-regular-text"></div>
+      </section>
 
-                    </div>
-                    <img class="experiences-dropdown-icon" src="" alt="">
-                </article>
-            </div>
+      <!--STATISTICS-->
+      <section class="statistics">
+        <article class="statistic-1"></article>
+        <article class="statistic-2"></article>
+        <article class="statistic-3"></article>
+        <article class="statistic-4"></article>
+      </section>
 
-            <div class="read-more-button">
+      <!--TESTIMONIAL-->
+      <section class="testimonial">
+        <div class="testimonial-picture"></div>
+        <div class="testimonial-text"></div>
+        <div class="testimonial-name"></div>
+        <div class="testimonial-dropdown"></div>
+      </section>
 
-            </div>
-
-        </section>
-
-        <!--WHAT TO KNOW-->
-        <section class="what-to-know">
-            <div class="what-to-know-main-text">
-
-            </div>
-            <div class="what-to-know-regular-text">
-
-            </div>
-        </section>
-
-        <!--STATISTICS-->
-        <section class="statistics">
-            <article class="statistic-1">
-
-            </article>
-            <article class="statistic-2">
-
-            </article>
-            <article class="statistic-3">
-
-            </article>
-            <article class="statistic-4">
-
-            </article>
-        </section>
-
-        <!--TESTIMONIAL-->
-        <section class="testimonial">
-            <div class="testimonial-picture">
-
-            </div>
-            <div class="testimonial-text">
-
-            </div>
-            <div class="testimonial-name">
-
-            </div>
-            <div class="testimonial-dropdown">
-
-            </div>
-        </section>
-
-        <!--SLIDESHOW-->
-        <section class="slideshow">
-            <div class="picture-container"></div>
-        </section>
-
+      <!--SLIDESHOW-->
+      <section class="slideshow">
+        <div class="picture-container"></div>
+      </section>
     </main>
 
     <!--CONTACT-->
-    <footer class="contact">
-
-    </footer>
-</body>
-
+    <footer class="contact"></footer>
+  </body>
 </html>
