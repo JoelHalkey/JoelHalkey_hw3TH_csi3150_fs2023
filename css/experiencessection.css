@@ -1,6 +1,6 @@
 /* SAMPLE EXPERIENCES CSS */
 .sample-experiences {
-    background-image: url("media/images/alaska\(2\).jpg");
+    background-image: url("/media/images/alaska\(2\).jpg");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -48,7 +48,7 @@
 .experience-1 {
     background-image:
         linear-gradient(to top right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
-        url("media/images/alaska_experience\(1\).jpg");
+        url("/media/images/alaska_experience\(1\).jpg");
     min-width: 300px;
     min-height: 400px;
     background-size: contain;
@@ -65,7 +65,7 @@
 .experience-2 {
     background-image:
         linear-gradient(to top right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)),
-        url("media/images/alaska_experience\(2\).jpg");
+        url("/media/images/alaska_experience\(2\).jpg");
     min-width: 300px;
     min-height: 400px;
     background-size: contain;
@@ -79,7 +79,7 @@
 
 .experience-3 {
     background-image:
-        url("media/images/alaska_experience\(3\).jpg");
+        url("/media/images/alaska_experience\(3\).jpg");
     min-width: 300px;
     min-height: 400px;
     background-size: contain;
