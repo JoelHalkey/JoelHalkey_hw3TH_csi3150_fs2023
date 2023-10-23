@@ -1,0 +1,60 @@
+/* SLIDESHOW CSS */
+.slideshow {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    flex: 0 0 50%;
+    /* Does 50 percent width for each picture*/
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
+    animation: slide 10s linear infinite;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes */
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#slide1 {
+    background-image: url("/media/images/alaska\(1\).jpg");
+}
+
+#slide2 {
+    background-image: url("/media/images/alaska\(2\).jpg");
+}
+
+#slide3 {
+    background-image: url("/media/images/alaska\(3\).jpg");
+}
+
+#slide4 {
+    background-image: url("/media/images/alaska\(4\).jpg");
+}
+
+#slide5 {
+    background-image: url("/media/images/alaska\(5\).jpg");
+}
+
+#slide6 {
+    background-image: url("/media/images/alaska\(6\).jpg");
+}
+
+#slide7 {
+    background-image: url("/media/images/alaska\(7\).jpg");
+}
+
+#slide8 {
+    background-image: url("/media/images/alaska\(8\).jpg");
+}
